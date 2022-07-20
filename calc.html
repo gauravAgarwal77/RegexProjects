@@ -1,0 +1,109 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculator By CodeWithHarry</h1>
+
+        <div class="calculator">
+            <input type="text" name="screen" id="screen">
+            <table>
+                <tr>
+                    <td><button>(</button></td>
+                    <td><button>)</button></td>
+                    <td><button>C</button></td>
+                    <td><button>%</button></td>
+                </tr>
+                <tr>
+                    <td><button>7</button></td>
+                    <td><button>8</button></td>
+                    <td><button>9</button></td>
+                    <td><button>X</button></td>
+                </tr>
+                <tr>
+                    <td><button>4</button></td>
+                    <td><button>5</button></td>
+                    <td><button>6</button></td>
+                    <td><button>-</button></td>
+                </tr>
+                <tr>
+                    <td><button>1</button></td>
+                    <td><button>2</button></td>
+                    <td><button>3</button></td>
+                    <td><button>+</button></td>
+                </tr>
+                <tr>
+                    <td><button>0</button></td>
+                    <td><button>.</button></td>
+                    <td><button>/</button></td>
+                    <td><button>=</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html> -->
+
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CALCULATOR</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Edu+TAS+Beginner&family=Montserrat&family=Play&family=Source+Sans+Pro&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="calc.css">
+  </head>
+  <body>
+    <h1>CALCULATOR</h1>
+
+    <div class="container">
+      <form action="" class="form1">
+        <input type="text" name="screen" id="screen" class="output">
+        <br /><br />
+
+        
+<input type="button" value="1" class="btn" onclick="display('1')"/> 
+<input type="button" value="2" class="btn" onclick="display('2')"/> 
+<input type="button" value="3" class="btn" onclick="display('3')"/>
+<input type="button" value="+" class="btn" onclick="display('+')"/> 
+        <br /><br />
+        
+        <input type="button" value="4" class="btn" onclick="display('4')"/> 
+        <input type="button" value="5" class="btn" onclick="display('5')"/>
+        <input type="button" value="6" class="btn" onclick="display('6')"/>
+        <input type="button" value="-" class="btn" onclick="display('-')"/>
+        <br><br>
+        
+<input type="button" value="7" class="btn" onclick="display('7')"/> 
+<input type="button" value="8" class="btn" onclick="display('8')"/> 
+<input type="button" value="9" class="btn" onclick="display('9')"/>
+<input type="button" value="*" class="btn" onclick="display('*')"/>
+        <br /><br />
+        <input type="button" value="." class="btn" onclick="display('.')"/>
+        <input type="button" value="0" class="btn" onclick="display('0')"/>
+        <input type="button" value="00" class="btn" onclick="display('00')"/>
+        <input type="button" value="/" class="btn" onclick="display('/')"/>
+        
+        <br /><br />
+        <input type="button" value="=" class="btn" onclick="solve()"/>
+        <input type="button" value="CLEAR" class="clear" onclick="clearScreen()"/>
+        <input type="button" value="%" class="btn" onclick="display('%')"/>
+       
+      </form>
+    </div>
+    <script src="calc.js"></script>
+  </body>
+</html> 

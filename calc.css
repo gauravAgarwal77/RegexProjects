@@ -1,0 +1,56 @@
+body{
+  background-color: rgb(23, 1, 44);
+    font-family: 'Edu TAS Beginner', cursive;
+  }
+  h1 {
+    text-align: center;
+    font-size: 100px;
+    text-decoration: underline;
+    color: rgb(232, 121, 77);
+  }
+  .container {
+    margin: auto;
+    width: 20%;
+    border-radius: 10%;
+    height: 575px;
+    border: 6px solid greenyellow;
+    display: flex;
+    justify-content: center;
+    background-color: black;    
+    align-items: center;    
+    
+    
+  }
+  
+  .output{
+    font-size: 50px;
+    margin-top: 25px;
+      width:315px ;
+      height: 100px;
+      border: 5px solid rgb(69, 230, 55);
+      border-radius: 30px;
+    }
+    .btn{
+        background-color: blueviolet;
+        width: 75px;
+        height: 50px;
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+        border-radius: 50px;
+    }
+    .btn:hover{
+        background-color: aqua;
+    }
+    .clear:hover{
+        background-color: red
+        ;
+    }
+    .clear{
+        background-color: rgb(227, 97, 97);
+        width: 155px;
+        height: 50px;
+        color: white;
+        font-size: x-large;
+        border-radius: 25px;
+    }
